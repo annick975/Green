@@ -3,14 +3,15 @@ import React from "react";
 const Home: React.FC = () => {
   return (
     <section className="relative min-h-[70vh] flex flex-col justify-center items-center text-center px-4 py-20 bg-gradient-to-b from-green-50 to-white overflow-hidden">
-      {/* Unsplash image as background */}
-      <img
-        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
-        alt="African girls coding"
-        className="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none -z-10"
-      />
-      {/* Meta/SEO Head placeholder */}
-      {/* <Head>...</Head> */}
+     {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src="/hero.jpeg"
+          alt="African girls coding"
+          className="w-full h-full object-cover opacity-95"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/50 to-green-100/60" />
+      </div>
       <h1 className="text-4xl md:text-6xl font-extrabold text-green-700 drop-shadow-lg mb-4 animate-fade-in">
         Girls in Tech & Green
       </h1>

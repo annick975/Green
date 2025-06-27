@@ -3,11 +3,10 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <section className="max-w-4xl mx-auto px-4 py-16">
-      {/* Meta/SEO Head placeholder */}
-      {/* <Head>...</Head> */}
+    
       <div className="flex flex-col md:flex-row gap-8 items-center">
         <img
-          src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80"
+          src="/hero.jpeg"
           alt="Girls learning tech in Rwanda"
           className="w-full md:w-1/2 rounded-xl shadow-lg object-cover mb-6 md:mb-0"
         />
