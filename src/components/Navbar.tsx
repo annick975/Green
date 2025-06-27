@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
           className="flex items-center gap-2 font-bold text-2xl text-green-600"
         >
           {/* Logo Placeholder */}
-          <span className="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center">
+          <span className=" text-white rounded-full w-8 h-8 flex items-center justify-center">
             🌿
           </span>
           Girls in Tech & Green

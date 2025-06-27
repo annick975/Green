@@ -3,30 +3,55 @@ import Modal from "../components/Modal";
 
 const initiatives = [
   {
-    title: "Workshops",
-    img: "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=600&q=80",
-    desc: "Teaching Arduino and basic coding to spark creativity and problem-solving.",
-    quote: "“I built my first robot!”",
+    title: "Code for Climate Workshops",
+    img: "./code.png",
+    desc: "Teaching girls to code and build tech that responds to real-world climate challenges.",
+    quote: "“I built my first robot!” — Clarisse, 15",
     story:
-      "Our workshops introduce girls to the world of technology, starting with the basics of coding and hands-on Arduino projects. Through teamwork and creativity, participants build their first electronic gadgets, gaining confidence and practical skills that inspire them to pursue STEM careers.",
+      "In one workshop, girls used Arduino kits to build a basic humidity sensor that could help monitor soil moisture. Clarisse couldn’t stop smiling when her code worked. For most, it was the first time they touched a circuit board — and the first spark of a future in tech.",
   },
   {
     title: "Tree Planting & Cleanups",
-    img: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80",
-    desc: "Organizing tree planting and community cleanups for a greener Rwanda.",
-    quote: "“We planted 100 trees in one day!”",
+    img: "/imbuto.jpeg",
+    desc: "Restoring green spaces through hands-on environmental action.",
+    quote: "“We planted 100 trees in one day!” — Aline, 14",
     story:
-      "We organize regular tree planting drives and community cleanups, empowering girls to take direct action for the environment. These events foster a sense of responsibility and community pride, while making a tangible impact on local ecosystems.",
+      "Our girls teamed up with local leaders in Bugesera to clean up riverbanks and plant indigenous trees. Aline led a group that planted over 100 saplings near her school. These cleanups spark community pride and reinforce that girls are not just future leaders—they're leaders now.",
   },
   {
     title: "Mentorship Circles",
-    img: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=600&q=80",
-    desc: "Connecting girls to inspiring women in STEM for guidance and support.",
-    quote: "“My mentor showed me what's possible.”",
+    img: "./mentor.jpeg",
+    desc: "Connecting girls to role models in STEM to grow their confidence and vision.",
+    quote: "“My mentor showed me what's possible.” — Kevine, 16",
     story:
-      "Mentorship Circles connect girls with women leaders in STEM fields. Through regular meetings and open discussions, girls receive guidance, encouragement, and real-world advice, helping them envision and pursue their own paths in technology and science.",
+      "Every month, our Mentorship Circles pair participants with Rwandan women in tech. Kevine met her mentor through our first pilot—and is now planning to study electrical engineering. These circles are safe spaces to ask questions, dream bigger, and build real-world connections.",
+  },
+  {
+    title: "Girls Hack Days",
+    img: "./hackdays.png",
+    desc: "1-day mini hackathons where girls collaborate to build tech for social good.",
+    quote: "“We made a water filter alert system!” — Diane, 17",
+    story:
+      "Our first Hack Day brought together 20 girls with one challenge: design a tech-based solution for clean water access. Diane's team created a basic alert system that detects when a homemade water filter needs cleaning. These events turn learning into leadership—fast.",
+  },
+  {
+    title: "Community Cleanups + Environmental Talks",
+    img: "./talks.jpeg",
+    desc: "Using tech tools to support sustainability awareness in local communities.",
+    quote: "“Now my whole village knows how to reuse plastic.” — Nadine, 13",
+    story:
+      "The girls designed posters using Canva and basic design tools to educate their communities on climate waste, recycling, and water conservation. Nadine stood up in her village church to give a talk using the slides she made herself. These aren’t just cleanups—they’re campaigns.",
+  },
+  {
+    title: "School Club Launches",
+    img: "./club.jpeg",
+    desc: "Sustainable impact through student-led Girls in Tech & Green clubs.",
+    quote: "“We run our own tech events now!” — Joëlle, 14",
+    story:
+      "We’re helping girls start their own clubs in secondary schools across Bugesera. Joëlle’s team now hosts weekly meetups where they test sensors, brainstorm climate projects, and even write blogs. These clubs are micro-hubs of innovation, built to last beyond our visits.",
   },
 ];
+
 
 const Initiatives: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);

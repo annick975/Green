@@ -2,27 +2,27 @@ import React from "react";
 
 const teamMembers = [
   {
-    name: "Niyubahwe U. Annick",
+    name: "NIYUBAHWE U. Annick",
     role: "Founder & Lead Organizer",
-    image: "https://via.placeholder.com/150", // Replace with real or Unsplash image
+    image: "./annick.jpeg",
     bio: "Tech for good believer. Leads the Girls in Tech & Green initiative with passion and vision.",
   },
   {
-    name: "Placeholder Name",
+    name: "NIBEZA A. Nicole",
     role: "Workshop Coordinator",
-    image: "https://via.placeholder.com/150",
+    image: "./nicole.jpeg",
     bio: "Helps organize hands-on coding sessions and supports girls learning Arduino and environmental tech.",
   },
   {
-    name: "Placeholder Name",
+    name: "MUGISHA Corene",
     role: "Outreach & Events",
-    image: "https://via.placeholder.com/150",
+    image: "./corene.jpeg",
     bio: "Connects with local schools and communities to grow our movement.",
   },
   {
-    name: "Placeholder Name",
+    name: "SENGA Gloire",
     role: "Media & Storytelling",
-    image: "https://via.placeholder.com/150",
+    image: "./margo.jpeg",
     bio: "Captures stories, runs the blog, and documents our impact through visuals and interviews.",
   },
 ];
